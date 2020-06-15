@@ -15,11 +15,7 @@ class DevelopmentConfig(Config):
     MAIL_PASSWORD = config('MAIL_PASSWORD', default='password123')
 
 class TestConfig(Config):
-<<<<<<< HEAD
-    SQLALCHEMY_DATABASE_URI = 'mysql://fredy:soriano00:@localhost/project_web_facilito_test'
-=======
     SQLALCHEMY_DATABASE_URI = 'mysql://freddy:soriano00@localhost/project_web_facilito_test'
->>>>>>> faa77e69ee8133cd7f7562a0a5870d5b17cff75c
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     TEST = True
 
